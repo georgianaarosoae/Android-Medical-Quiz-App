@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MedQuiz</string>
+    <string name="idBeeTreasure">MedQuiz</string>
+    <string name="next">Next</string>
+    <string name="which_vitamin_is_known_as_the_quot_sunshine_vitamin_quot_because_our_skin_can_produce_it_when_exposed_to_sunlight">Which vitamin is known as the \"sunshine vitamin\" because our skin can produce it when exposed to sunlight?</string>
+    <string name="vitamin_d">Vitamin D</string>
+    <string name="vitamin_c">Vitamin C</string>
+    <string name="vitamin_a">Vitamin A</string>
+    <string name="vitamin_b12">Vitamin B12</string>
+    <string name="what_is_the_name_of_the_body_s_natural_painkiller_often_released_during_exercise_or_in_response_to_pain_or_stress">What is the name of the body\'s natural painkiller, often released during exercise or in response to pain or stress?</string>
+    <string name="endorphin">Endorphin</string>
+    <string name="oxytocin">Oxytocin</string>
+    <string name="serotonin">Serotonin</string>
+    <string name="dopamine">Dopamine</string>
+    <string name="which_organ_in_the_human_body_is_responsible_for_producing_insulin">Which organ in the human body is responsible for producing insulin?</string>
+    <string name="the_pituitary_gland">The pituitary gland</string>
+    <string name="the_pancreas">The pancreas</string>
+    <string name="the_gallbladder">The gallbladder</string>
+    <string name="the_liver">The liver</string>
+    <string name="what_is_the_medical_term_for_the_outermost_layer_of_the_skin">What is the medical term for the outermost layer of the skin?</string>
+    <string name="the_dermis">The dermis</string>
+    <string name="the_epidermis">The epidermis</string>
+    <string name="the_hypodermis">The hypodermis</string>
+    <string name="the_keratocyte">The keratocyte</string>
+    <string name="what_is_the_name_of_the_human_body_s_largest_lymphatic_organ_which_plays_a_key_role_in_the_immune_system">What is the name of the human body\'s largest lymphatic organ, which plays a key role in the immune system?</string>
+    <string name="the_thymus">The Thymus</string>
+    <string name="the_tonsils">The Tonsils</string>
+    <string name="the_appendix">The Appendix</string>
+    <string name="the_spleen">The Spleen</string>
+    <string name="final_result">Congratulations! You\'ve completed the quiz. Your score is %1$d out of 5</string>
+</resources>

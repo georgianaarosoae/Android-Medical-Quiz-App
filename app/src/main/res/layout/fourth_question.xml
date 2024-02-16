@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <CheckBox
+        android:id="@+id/cbQuestt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_dermis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline7"
+        app:layout_constraintBottom_toTopOf="@id/cbQuestt2"
+        android:layout_marginEnd="200dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        />
+
+    <CheckBox
+        android:id="@+id/cbQuestt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_epidermis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cbQuestt1"
+        app:layout_constraintBottom_toTopOf="@id/cbQuestt3"
+        android:layout_marginEnd="184dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"/>
+    <CheckBox
+        android:id="@+id/cbQuestt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_hypodermis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cbQuestt2"
+        app:layout_constraintBottom_toTopOf="@id/cbQuestt4"
+        android:layout_marginEnd="170dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="40dp"
+        />
+
+    <CheckBox
+        android:id="@+id/cbQuestt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_keratocyte"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cbQuestt3"
+        app:layout_constraintBottom_toTopOf="@id/guideline8"
+        android:layout_marginEnd="178dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="4dp"/>
+
+
+    <TextView
+        android:id="@+id/idQuestion4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/what_is_the_medical_term_for_the_outermost_layer_of_the_skin"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/idBtnNext4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="170dp"
+
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="201dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="582dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

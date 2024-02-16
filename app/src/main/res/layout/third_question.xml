@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <CheckBox
+        android:id="@+id/cbQuest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_pancreas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline5"
+        app:layout_constraintBottom_toTopOf="@id/cbQuest2"
+        android:layout_marginEnd="200dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        />
+
+    <CheckBox
+        android:id="@+id/cbQuest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_gallbladder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cbQuest1"
+        app:layout_constraintBottom_toTopOf="@id/cbQuest3"
+        android:layout_marginEnd="184dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"/>
+    <CheckBox
+        android:id="@+id/cbQuest3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_liver"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cbQuest2"
+        app:layout_constraintBottom_toTopOf="@id/cbQuest4"
+        android:layout_marginEnd="230dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="40dp"
+        />
+
+    <CheckBox
+        android:id="@+id/cbQuest4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_pituitary_gland"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cbQuest3"
+        app:layout_constraintBottom_toTopOf="@id/guideline6"
+        android:layout_marginEnd="160dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="4dp"/>
+
+
+    <TextView
+        android:id="@+id/idQuest3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/which_organ_in_the_human_body_is_responsible_for_producing_insulin"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/idBtnNext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="170dp"
+
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="201dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="582dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
