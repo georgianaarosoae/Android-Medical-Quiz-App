@@ -3,7 +3,7 @@
 ## Description
 The Medical Quiz App is a mobile application developed for Android devices. 
 It aims to test users' knowledge in the medical field through a series of interactive quizzes. 
-The app provides msingle-choice questions on various medical topics, allowing users to learn and test their understanding of medical terminology, anatomy, diseases, and treatments.
+The app provides single-choice questions on various medical topics, allowing users to learn and test their understanding of medical terminology, anatomy, diseases, and treatments.
 
 #### Technologies Used
 
